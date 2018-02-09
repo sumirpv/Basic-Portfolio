@@ -1,0 +1,119 @@
+  
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #333;
+  background: #efeee7;
+  background-image: url("assets/images/triangular/triangular.png");
+  clear: both;
+}
+#name{
+  float: left;
+  width: 400px;
+  height: 80px;
+  margin-bottom: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgb(77,168,162);
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  font-size: 40px;
+  color:black;
+	text-align: center;
+}
+    
+  h2 {
+  font-size: 30px;
+  }
+    
+.container {	
+width: 1075px;
+  margin-left: 200px;
+}
+
+.division{
+  width:150px;;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 40px 0 0 0 ;
+}
+
+#about{
+  padding-bottom: 10px;
+}
+
+  #main-bio,
+  #contact-info {
+  float: left;
+  border-style: solid;
+  border-color: grey;
+  padding-left: 15px;
+  }
+  
+#main-bio {
+  width: 650px;
+  margin-top: 40px;
+  font-size: 24px;
+  padding: 5px;    
+}
+
+
+#contact-info {
+  width: 280px;
+  margin-top: 40px;
+  margin-left: 90px;
+}
+  
+.box{
+  height:30px;
+  width:500px;
+}
+    
+#text{
+  height:200px;
+  width:500px;
+}
+#submit{
+  height: 40px;
+  width: 130px; 
+  font-size: 24px;
+  border:none;
+  background-color: rgb(77,168,162);
+}
+a{
+  color: blue;
+  padding: 13px;
+  font-size: 24px;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: orange;
+}
+a:active{
+  color:rgb(187, 8, 8);
+}
+
+#footer{
+  height:70px;
+  padding-top: 20px;
+    background-color: grey;
+  display: block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  color: white;
+  text-align: center;
+  border-style: solid;
+border-color: grey;
+}
+

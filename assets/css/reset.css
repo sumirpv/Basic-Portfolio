@@ -1,48 +1,124 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+
+
 body {
-	line-height: 1;
+	padding: 0;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #333;
+	background: #efeee7;
+	background-image: url("../../symphony/symphony.png");
+	clear: both;
+	}
+	
+
+  
+	#name{
+		float: left;
+		width: 400px;
+		height: 80px;
+		margin-bottom: 10px;
+		margin-left: 200px;
+		margin-right: 200px;
+		background-color: rgb(77,168,162);
+	}
+  
+  h1 {
+	padding: 20px 0;
+	margin: 0;
+	font-size: 40px;
+	color:black;
+	text-align: center;
+  }
+  
+  h2 {
+	font-size: 30px;
+  }
+  .container {
+		clear: both;
+	margin-left: 200px;
+
+	}  
+	.division{
+	width:150px;;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	padding: 40px 0 0 0 ;
+	}
+ 
+	a{
+		color: blue;
+		padding: 13px;
+		font-size: 24px;
+	}
+	a:visited{
+		color: black;
+	}
+	a:hover{
+		color: orange;
+	}
+	a:active{
+		color:rgb(187, 8, 8);
+	}
+  
+
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+	float: left;
+	border-style: solid;
+	border-color: grey;
+  }
+  
+  #main-bio {
+	width: 650px;
+	margin-top: 40px;
+	padding: 5px;
+  }
+  
+  #contact-info {
+	width: 280px;
+	margin-top: 40px;
+	margin-left: 90px;
+  }
+  
+  #bio-image {
+	width: 200px;
+	height: 200px;
+	margin-right: 40px;
+	}
+.background-switch{
+	text-align: center;
+	padding : 0 1em 1em 1em;
+	max-width: 600px;
+	font-size: 20px;
+	background-color:#efeee7;
+	color: black;
+	text-align: justify;
 }
-ol, ul {
-	list-style: none;
+.background-switch:hover{
+	background-color:grey;
+	color: white;
+	text-align: justify;
+
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+	
+	#footer{
+		height:70px;
+		padding-top: 20px;
+			background-color: grey;
+		display: block;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		
+		color: white;
+		text-align: center;
+		border-style: solid;
+	border-color: grey;
+	}
